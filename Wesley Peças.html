@@ -1,0 +1,15 @@
+<script>
+    var product = parseFloat(prompt('Insira o valor do produto'));
+    var aumento = parseFloat(prompt('Insira o valor da margem do lucro'));
+    var conta
+
+    if (product > 0) {
+        var porcentagem = aumento / 100;
+        var conta = product * porcentagem;
+        result = product + conta;
+    }
+    document.write("O preço de vendas do produto é" + result);
+
+
+
+</script>
